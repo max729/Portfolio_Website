@@ -21,9 +21,24 @@ navLinks.forEach((l) => {
 })
 
 
+const inputs =  document.getElementById("mailForm");
+const submitbutton =  document.getElementById("submitbutton");
+submitbutton.addEventListener('click',() => {
 
-function sendMail(form) {
-    //alert('Send');
-    //console.log(form);
-    window.open('mailto:max.schoppe@gmx.net');
-}
+    const name = (inputs.elements["name"].value).trim()
+    const email = (inputs.elements["email"].value).trim()
+    const subject = (inputs.elements["subject"].value.trim())
+    const text = (inputs.elements["text"].value.trim())
+    
+
+    Email.send({
+        SecureToken : "642afa14-f575-488a-8aa9-18d73a27def1",
+        To : 'cs-cheese@web.de',
+        From : email,
+        Subject : subject,
+        Body : "<html><strong>" + name + "</strong><br></br>"+ text +"</html>" 
+    }).then(
+      message => alert(message)
+    );
+
+})
