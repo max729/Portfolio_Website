@@ -30,6 +30,10 @@ submitbutton.addEventListener('click',() => {
     const subject = (inputs.elements["subject"].value.trim())
     const text = (inputs.elements["text"].value.trim())
     
+    if (!name.length > 0 || !email.length > 0 || !subject.length > 0 || !text.length > 0) {
+        alert("All fields are mandatory")
+        return
+    }
 
     Email.send({
         SecureToken : "642afa14-f575-488a-8aa9-18d73a27def1",
