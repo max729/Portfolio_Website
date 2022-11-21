@@ -3,6 +3,8 @@ const header = document.querySelector('.navbar');
 console.log(header)
 window.onscroll = function() {
     const top = window.scrollY;
+    header.classList.add('navbarDark');
+    
     if(top >=100) {
         header.classList.add('navbarDark');
     }
@@ -17,3 +19,11 @@ const menuToggle = document.getElementById('navbarSupportedContent')
 navLinks.forEach((l) => {
     l.addEventListener('click', () => { new bootstrap.Collapse(menuToggle).toggle() })
 })
+
+
+
+function sendMail(form) {
+    //alert('Send');
+    //console.log(form);
+    window.open('mailto:max.schoppe@gmx.net');
+}
