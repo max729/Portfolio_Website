@@ -31,7 +31,7 @@
                         <a class="nav-link" href="#Profil">Profil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -43,20 +43,41 @@
     </nav>
     <!-- main banner -->
     <section class="bgimage" id="home">
-        <div class="container-fluid">
-            <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                <h2 class="hero_title">Hallo, ich heiße Max Schoppe</h2>
-                <p class="hero_desc">und bin ein Sofftwareentwickler aus Berlin</p>
+        <div class="container" style="position: relative;height: 100%;">
+            <div class="row ">
+            <div class=" hero-text ">
+                <h2 class="hero_title pe-1">Max Schoppe</h2>
+                <p class="hero_desc pe-1">software developer</p>
+                <a class="btn btn-outline-light me-1" href="#projects" >My Projects</a>
             </div>
             </div>
         </div>
     </section>
 
     <!-- Profil section-->
-    <section id="Profil">
-        <div class="container mt-4 pt-4 ">
-            <h1 class="text-center bg-dark text-white rounded bg-gradient">Profil</h1>
+    <section id="Profil"  style="background: rgb(27,27,28);
+    background: linear-gradient(180deg, rgb(12, 12, 13) 0%, rgb(31, 32, 38) 100%); margin-top: -30px; padding-top: 80px; padding-bottom: 10px;">
+        <div class="container text-white ">
+            <div style="position: relative;">
+                <h1 class="text-center" style="position: absolute;
+                top: 5px;
+                color: #ececec3d;
+                left: 0;
+                right: 0;
+                z-index: 0;
+                font-weight: 700;
+                font-size:  calc((1.375rem + 1.5vw)*1.5);
+                text-transform: uppercase;
+                line-height: 0; ">
+                    Profil
+                </h1>
+                <h1 class="text-center  text-white " style="z-index: 2; text-transform: uppercase; position: relative;">
+                    Profil
+                </h1>
+            </div>
+            
+            
+            
             <div class="row my-4">
 
                 <div class="col-lg-5 text-center">
@@ -94,80 +115,120 @@
             </div>
     </section>
 
-    <section id="portfolio">
-        <div class="container mt-3">
-            <h1 class="text-center text-white bg-dark rounded bg-gradient">Portfolio</h1>
-            <div class="row">
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/TodoApp.png" alt="Card image" style="width: 100%;">
-                        <div class="card-body">
-                            <h4 class="card-title">Todo Webapp</h4>
-                            <p class="card-text">Simple Todo Webapp, mit Svelte Frontend und Firebase Backend</p>
-                            <div class="row" >
-                                <div class="col-6 text-center">
-                                    <a  target="_blank" href="https://github.com/max729/Todo_webapp" class="btn btn-success">Github</a>
-                                </div>
-
-                                <div class="col-6 text-center">
-                                    <a  target="_blank" href="https://todolist-9f1b9.firebaseapp.com/" class="btn btn-success">Live-Demo</a>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Quiz App</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Product Landing Page</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <section id="projects" class="" style="background: rgb(27,27,28);
+    background: linear-gradient(180deg, rgba(31,31,36,1) 0%, rgb(41, 67, 89)  100%); margin-top: -30px; padding-top: 80px; padding-bottom: 10px;"">
+        <div class="container ">
+            <div class="mb-5"  style="position: relative;">
+                <h1 class="text-center" style="position: absolute;
+                top: 5px;
+                color: #ececec3d;
+                left: 0;
+                right: 0;
+                z-index: 0;
+                font-weight: 700;
+                font-size:  calc((1.375rem + 1.5vw)*1.5);
+                text-transform: uppercase;
+                line-height: 0; ">
+                    Projects
+                </h1>
+                <h1 class="text-center  text-white " style="z-index: 2; text-transform: uppercase; position: relative;">
+                    Projects
+                </h1>
             </div>
+
+
+
+                    <div class="card my-2 shadow text-white "  style="background-color: #1b1b1c;">
+                        <div class="row g-0">
+                            <div class="col-lg-4">
+                                <img class="card-img-top" src="images/TodoApp.png" alt="Card image" style="width: 100%;">
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Todo Webapp</h5>
+                                  <p class="card-text">Simple Todo Webapp, mit Svelte Frontend und Firebase Backend </p>
+                                
+                                <div class="card-footer row" >
+                                    <div class="col-6 text-center">
+                                        <a  target="_blank" href="https://github.com/max729/Todo_webapp" class="btn btn-success">Github</a>
+                                    </div>
+    
+                                    <div class="col-6 text-center">
+                                        <a  target="_blank" href="https://todolist-9f1b9.firebaseapp.com/" class="btn btn-success">Live-Demo</a>
+                                    </div>
+    
+                                </div>
+                                  
+                                </div>
+                              </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="card my-2 shadow text-white " style="background-color: #1b1b1c;">
+                        <div class="row g-0">
+                            <div class="col-lg-4">
+                                <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Bugtracker</h5>
+                                  <p class="card-text">A CRUD Webapp for Tracking Bugs, with an Mysql Database and Authorithation with JWT web Tokens. The Frontend I used the Vue Framework and the Bootstrap CSS. For the Backend I used the Java spring Framework.  </p>
+                                
+                                  <a href="#" class="btn text-white" style="background-color: #294359;">Github</a>
+                                </div>
+                              </div>
+
+                        </div>
+                    </div>
+
+
+
+
             <br>
     </section>
 
     <!-- contact section-->
-    <section id="contact">
-        <div class="container mt-3 contactContent">
-            <h1 class="text-center text-white bg-dark rounded bg-gradient" >Contact Me</h1>
+    <section id="contact" class="pt-3" style="background-color: #294359;">
+        <div class="container  contactContent" >
+
+            <div class="mb-5" style="position: relative;">
+                <h1 class="text-center" style="position: absolute;
+                top: 5px;
+                color: #ececec3d;
+                left: 0;
+                right: 0;
+                z-index: 0;
+                font-weight: 700;
+                font-size:  calc((1.375rem + 1.5vw)*1.5);
+                text-transform: uppercase;
+                line-height: 0; ">
+                    Contact Me
+                </h1>
+                <h1 class="text-center  text-white " style="z-index: 2; text-transform: uppercase; position: relative;">
+                    Contact Me
+                </h1>
+            </div>
+
             
 
             <div class="row mt-4 ">
-                <div class="col-lg-3 ">
+                <div class="col-lg-2 ">
                      <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html -->
                
 
           
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-8 card shadow">
+                    <div class="card-body">
+                     
                     <!-- form fields -->
                     <form id="mailForm" class="needs-validation" onsubmit="return false;">
                         <!-- -->
-                        <input type="text" name="name" class="form-control form-control-lg" placeholder="Name" required>
+                        <input type="text" name="name" class="form-control mt-2 form-control-lg" placeholder="Name" required>
                         <input type="email" name="email" class="form-control mt-3" placeholder="Email" required>
                         <input type="text" name="subject" class="form-control mt-3" placeholder="Subject" required>
                         <div class="mb-3 mt-3">
@@ -178,6 +239,7 @@
                             <button id="submitbutton" type="submit" class="btn btn-success mt-3" >Contact Me</button>
                         </div>
                     </form>
+                </div>
                    
                 </div>
 
@@ -188,7 +250,7 @@
     <footer id="footer">
         <div class="container-fluid">
             <!-- social media icons -->
-            <div class="social-icons mt-4">
+            <div class="social-icons ">
                 <a class="mx-2" href="https://www.linkedin.com/in/max-s-aa7627220/?original_referer=" target="_blank"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
