@@ -34,7 +34,7 @@
                         <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Profil">Profil</a>
+                        <a class="nav-link" href="#Profil">About Me</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">Projects</a>
@@ -53,7 +53,7 @@
             <div class="row ">
                 <div class=" hero-text ">
                     <h2 class="hero_title pe-1">Max Schoppe</h2>
-                    <p class="hero_desc pe-1">software developer</p>
+                    <p class="hero_desc pe-1 " >I am software developer</p>
                     <a class="btn btn-outline-light me-1" href="#projects">My Projects</a>
                 </div>
             </div>
@@ -76,50 +76,44 @@
                 font-size:  calc((1.375rem + 1.5vw)*1.5);
                 text-transform: uppercase;
                 line-height: 0; ">
-                    Profil
+                    About Me
                 </h1>
                 <h1 class="text-center  text-white " style="z-index: 2; text-transform: uppercase; position: relative;">
-                    Profil
+                    About Me
                 </h1>
             </div>
 
 
 
-            <div class="row my-4">
 
-                <div class="col-lg-5 text-center">
-                    <img src="images/about.png" class="imageAboutPage rounded" alt="">
-                </div>
 
-                <div class="col-lg-6">
-
-                    <div class="row my-3" style="text-align: justify">
-                        <p>
-                            IT Entwickler mit großem Interesse an neuen Technologien und guten
-                            analytischen Fähigkeiten. In meinem Studium der Informatik konnte ich
-                            in verschiedenen kleineren Projekten sowohl Erfahrungen in der agilen
-                            Softwareentwicklung, als auch im Testen von Software sammeln. Des
-                            Weiteren konnte ich während meiner Ausbildung und bei verschiedenen
-                            Mannschaftssportarten das erfolgreiche Arbeiten im Team erlernen.
-                        </p>
+            <div class="card shadows text-white my-4" style="background-color: #1b1b1c; animation: fadeIn 3s;">
+                <div class="row g-0 ">
+                    <div class="col-lg-4 " >
+                        <img src="images/about.png" style="background-color:  rgb(77, 77, 77);" class="imageAboutPage rounded w-100" alt="">
                     </div>
-
-                    <div class="row my-3">
-                        <div class="col-1"></div>
-
-                        <div class="col">
-                            <ul>
-                                <li>Name: Max Schoppe</li>
-                                <li>Alter: 32</li>
-                                <li>Studium: Informatik</li>
-
-                            </ul>
+                    <div class="col-12 col-lg-8">
+                        <div class="card-body h-100 d-flex flex-column justify-content-between flex-wrap">
+                            <div>
+                                <h3 class="card-title mb-3">Max Schoppe</h3>
+                                <p class="card-text"><strong>Description:</strong>  Hello, I am an IT developer with a passion for exploring new technologies and solving problems through analytical thinking. In my computer science studies, I have gained hands-on experience in agile software development and testing through various small projects. These experiences have helped me develop a strong foundation in software development and a desire to continuously learn and grow in my field.</p>
+                                <h5 class="card-title mb-3">Skills</h5>
+                                <p class="card-text text-center">
+                                    HTML/CSS | Java | C++ | Python | Vue | SQL | Latex | Github | Matlab | Ansys
+                                </p>
+                            </div>
+                            <div class="text-center social-icons">
+                                <a class="mx-2" href="https://github.com/max729" target="_blank">
+                                    <i class="fa-brands fa-github fab2"></i></a>
+                                    <a class="mx-2" href="https://www.linkedin.com/in/max-s-aa7627220/?original_referer=" target="_blank">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                            </div>
                         </div>
-
                     </div>
-
                 </div>
             </div>
+    
     </section>
 
     <section id="projects" class=""
@@ -198,9 +192,8 @@
                     <div class="card-body h-100 d-flex flex-column justify-content-between flex-wrap">
                         <div>
                             <h5 class="card-title mb-3">Bugtracker</h5>
-                            <p class="card-text"><strong>Description:</strong> A CRUD Webapp for Tracking Bugs.  with an Mysql Database and Authorithation
-                                with JWT web Tokens. The Frontend I used the Vue Framework and the Bootstrap CSS. For the
-                                Backend I used the Java spring Framework.</p>
+                            <p class="card-text"><strong>Description:</strong> This is a CRUD web application for tracking bugs, with a MySQL database for data storage and JWT for user authentication. In the application, bug tickets are organized into projects and can be easily created, viewed, edited, and deleted through the MVC Pattern.
+                            </p>
                             <p class="card-text"><strong>Stack:</strong>  Vue, Vite, Bootstrap, JWT, Java Sring Boot, MySQL </p>
                         </div>
                         <div class="text-end social-icons">
@@ -249,9 +242,8 @@
                     <div class="card-body h-100 d-flex flex-column justify-content-between flex-wrap">
                         <div>
                             <h5 class="card-title mb-3">Todo Webapp</h5>
-                            <p class="card-text"><strong>Description:</strong> Simple To-do Web app, where you can add,
-                                delete and mark tasks as done. All Tasks are saved onto your account in a Document
-                                Database.</p>
+                            <p class="card-text"><strong>Description:</strong> Simple To-do web application, where you can easily manage your tasks by adding, deleting, and marking them as complete. All tasks will be saved to your account in a secure document database.
+                            </p>
                             <p class="card-text"><strong>Stack:</strong> Html, CSS, Bootstrap, Svelte, Firebase </p>
                         </div>
                         <div class="text-end social-icons">
@@ -346,6 +338,9 @@
         <div class="container-fluid">
             <!-- social media icons -->
             <div class="social-icons ">
+                <a class="mx-2" href="https://github.com/max729" target="_blank">
+                    <i class="fa-brands fa-github fab2"></i>
+                </a>
                 <a class="mx-2" href="https://www.linkedin.com/in/max-s-aa7627220/?original_referer=" target="_blank">
                     <i class="fab fa-linkedin"></i>
                 </a>

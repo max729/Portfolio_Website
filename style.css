@@ -59,7 +59,7 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-code:hover,.fa-globe:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+.fa-code:hover,.fa-globe:hover,.fa-github:hover,.fa-linkedin:hover, .fa-twitch:hover {
     color: #cac7d6;
 }
 .fab {
