@@ -68,6 +68,24 @@
 .fab2{
     color: #ffffff;
 }
+.fa-leetcode{
+
+    display:inline-block;
+
+
+    mask: url('images/leetcode2.svg');
+    background:#ffffff;
+    
+    width: 41px;
+    height: 41px;
+    background-size: cover;
+    vertical-align:text-top;
+    mask-repeat: no-repeat;
+}
+
+.fa-leetcode:hover {
+    background-color: #cac7d6;
+}
 
 
 /* footer styling */
