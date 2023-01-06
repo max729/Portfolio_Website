@@ -23,15 +23,18 @@
 }
 .hero_desc {
     font-size: 2rem;
+    
 }
 .hero-text {
     text-align: end;
     position: absolute ;
     top: 30%;
     left: 0%;
-    transform: translate(-0%, -50%);
+    transform: translate(0, -50%);
     color: white;
 }
+
+
 
 /* spacing on all sections */
 /* #about, #services, #portfolio, #contact {
@@ -102,13 +105,13 @@
 .hidden{
     opacity: 0;
     filter: blur(3px);
-    transform: translateY(50%);
+    transform: translate(200px, -60%);
     transition: all 1.5s;
 }
 
 .show{
     filter: blur(0);
-    transform: translateY(0);
+    transform: translate(0,-60%);
     opacity: 1;
 }
 
