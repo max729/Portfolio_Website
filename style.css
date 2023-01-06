@@ -97,3 +97,23 @@
 .shadows{
     box-shadow: 0 .5rem 1rem rgb(0, 0, 0) !important;
 }
+
+
+.hidden{
+    opacity: 0;
+    filter: blur(3px);
+    transform: translateY(50%);
+    transition: all 1.5s;
+}
+
+.show{
+    filter: blur(0);
+    transform: translateY(0);
+    opacity: 1;
+}
+
+@media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
+    }
+}
