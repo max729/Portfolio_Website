@@ -47,18 +47,18 @@ submitbutton.addEventListener('click',() => {
 
 })
 
-
-const observer = new IntersectionObserver((entries)=>{
+/*
+ const observer = new IntersectionObserver((entries)=>{
    
     entries.forEach((entry)=>{
 
-        if(entry.isIntersecting){
-            entry.target.classList.add('show');
+        if(entry.isIntersecting && entry.target.classList.contains("step00")){
+            entry.target.classList.add('step01');
         } else{
             //entry.target.classList.remove('show')
         }
     })
 })
 
-const hiddenElements = document.querySelectorAll('.hidden');
-hiddenElements.forEach((ele)=>observer.observe(ele));
+const hiddenElements = document.querySelectorAll('.step00');
+hiddenElements.forEach((ele)=>observer.observe(ele)); */

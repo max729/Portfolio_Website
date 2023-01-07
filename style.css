@@ -3,10 +3,7 @@
     background-color: rgba(0, 0, 0, 0.87);
 }
 
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
+
 /* hero background image */
 .bgimage {
     height:100vh;
@@ -101,22 +98,27 @@
     box-shadow: 0 .5rem 1rem rgb(0, 0, 0) !important;
 }
 
+/*
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+} 
 
-.hidden{
+.step00{
     opacity: 0;
     filter: blur(3px);
-    transform: translate(200px, -60%);
+    transform: translate(200px, -50%);
     transition: all 1.5s;
 }
 
-.show{
+.step01{
     filter: blur(0);
-    transform: translate(0,-60%);
+    transform: translate(0,-50%);
     opacity: 1;
 }
-
-@media(prefers-reduced-motion){
+*/
+/* @media(prefers-reduced-motion){
     .hidden{
         transition: none;
     }
-}
+} */
