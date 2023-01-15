@@ -99,9 +99,16 @@
 }
 
 /*
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+@keyframes fadeInAni {
+    0% { opacity: 0;
+        filter: blur(3px);
+        transform: translate(200px, -50%);
+    }
+    100% { 
+        filter: blur(0);
+        transform: translate(0,-50%);
+        opacity: 1;
+     }
 } 
 
 .step00{
