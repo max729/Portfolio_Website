@@ -68,23 +68,17 @@
 .fab2{
     color: #ffffff;
 }
-.fa-leetcode{
 
-    display:inline-block;
+.leetcode-icon{
+    display: inline-block;
+    fill: #ffffff;
+    vertical-align: -0.08em;
+    width: 0.9em; 
+    height: 0.9em;
 
-
-    mask: url('images/leetcode2.svg');
-    background:#ffffff;
-    
-    width: 41px;
-    height: 41px;
-    background-size: cover;
-    vertical-align:text-top;
-    mask-repeat: no-repeat;
 }
-
-.fa-leetcode:hover {
-    background-color: #cac7d6;
+.leetcode-icon:hover{
+    fill: #cac7d6;
 }
 
 
