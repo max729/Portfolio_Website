@@ -51,7 +51,7 @@ submitbutton.addEventListener('click',() => {
 
 
     emailjs.send(serviceID, templateID, params).then((res)=>{
-        alert("Mail Send");
+        alert("Mail Sent");
     })
     .catch((err)=> console.log(err));
 
